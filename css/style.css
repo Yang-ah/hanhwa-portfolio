@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+@import url("reset.css");
+@import url("pc.css");
+@import url("tablet.css");
+@import url("mobile.css");
+
+:root {
+  --red: rgb(255, 102, 0);
+}
+
+/* 공통영역 */
+
+.hidden {
+  display: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  color: #222;
+}
+
+#wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sec_2,
+.sec_3,
+.sec_4,
+.sec_5 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
