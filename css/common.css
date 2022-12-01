@@ -70,6 +70,7 @@ header {
 }
 
 #inHeader {
+  width: 100%;
   position: absolute;
   z-index: 99;
   display: flex;
@@ -78,8 +79,51 @@ header {
   box-sizing: border-box;
 }
 
-.logo > a > img {
+.logo > a > img,
+.subLogo > a > img {
   width: 100%;
+}
+
+/*subGnb*/
+.subGnb {
+  width: 100%;
+  background-color: #fff;
+  z-index: 100;
+  box-sizing: border-box;
+}
+
+.subGnb-header {
+  width: 100%;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.subGnb a {
+  color: #222;
+  display: block;
+}
+
+.subGnb-nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.subGnb-nav > a {
+  width: 100%;
+  font-weight: 500;
+}
+.subGnb-nav > button {
+  color: var(--red);
+}
+.subList {
+  color: #222;
+  font-weight: 500;
 }
 
 /*sec_1*/

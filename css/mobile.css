@@ -83,6 +83,24 @@
     display: none;
   }
 
+  .subGnb-header {
+    height: 60px;
+    padding: 0 20px;
+  }
+
+  .subLogo {
+    width: 170px;
+    height: 30px;
+    background-color: red;
+    background: url(../img/1-1.png) 0 0 no-repeat;
+    background-size: 170px;
+  }
+
+  .subGnb-Xbtn {
+    font-size: 25px;
+    line-height: 25px;
+  }
+
   /* header end  */
 
   .sec_1 {
