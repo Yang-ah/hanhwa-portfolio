@@ -25,6 +25,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
+}
+
+.sec_1 {
+  position: relative;
+  width: 100%;
 }
 
 .sec_2,
@@ -37,4 +43,49 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  box-sizing: border-box;
 }
+
+.sec__line {
+  background-color: var(--red);
+}
+
+.sec_3__container,
+.sec_4__container,
+.sec_5__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec__btn {
+  color: white;
+  background-color: var(--red);
+  display: block;
+}
+
+/*header*/
+
+header {
+  width: 100%;
+  position: relative;
+  z-index: 98;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transition-duration: 0.3s;
+}
+
+#inHeader {
+  position: absolute;
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.logo > a > img {
+  width: 100%;
+}
+
+/*section*/

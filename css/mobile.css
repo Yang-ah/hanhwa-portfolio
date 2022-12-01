@@ -1,33 +1,26 @@
 @media all and (max-width: 767px) {
   /* 공통영역  */
 
-  #wrap {
-    overflow: hidden;
-  }
-
   .sec_2,
   .sec_3,
   .sec_4,
   .sec_5 {
     padding: 35px 20px;
-    box-sizing: border-box;
   }
 
   .sec__title {
     font-size: 28px;
   }
+
   .sec__line {
     width: 30px;
     height: 4px;
-    background-color: var(--red);
     margin: 10px 0 18px 0;
   }
 
   .sec_3__container,
   .sec_4__container,
   .sec_5__container {
-    display: flex;
-    justify-content: space-between;
     width: 100%;
     margin-top: 10px;
     box-sizing: border-box;
@@ -36,9 +29,6 @@
   .sec__btn {
     width: 100px;
     height: 32px;
-    color: white;
-    background-color: var(--red);
-    display: block;
     line-height: 32px;
     border-radius: 16px;
     margin: 25px 0;
@@ -66,26 +56,10 @@
 
   /* 공통영역 END  */
 
-  header {
-    width: 100%;
-    position: relative;
-    z-index: 98;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    transition-duration: 0.3s;
-  }
-
   #inHeader {
-    position: absolute;
-    z-index: 99;
     width: 100%;
     padding: 10px 20px 0 20px;
     height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
   }
 
   .logo {
@@ -94,9 +68,7 @@
     background: url(../img/1.png) 0 0 no-repeat;
     background-size: 160px;
   }
-  .logo > a > img {
-    width: 100%;
-  }
+
   #subGnbBtn ~ label {
     width: 27px;
     height: 27px;
@@ -114,8 +86,6 @@
   /* header end  */
 
   .sec_1 {
-    position: relative;
-    width: 100%;
     top: 0;
     left: 0;
   }
