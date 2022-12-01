@@ -117,6 +117,16 @@
     font-size: 20px;
     margin: 0 40px;
   }
+
+  .subList-subUl {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 200px 30px;
+    text-align: end;
+  }
+  .subList-subUl > li {
+    margin-top: 5px;
+  }
   /* header end  */
 
   .sec_1 {

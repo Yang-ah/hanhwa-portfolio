@@ -126,6 +126,16 @@ header {
   font-weight: 500;
 }
 
+.subList-subUl a {
+  color: #888;
+}
+
+.subList > li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
 /*sec_1*/
 .sec_1__txtbox {
   color: white;
