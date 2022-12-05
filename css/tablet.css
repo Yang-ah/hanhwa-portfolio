@@ -83,7 +83,7 @@
   }
 
   .subGnb-header {
-    height: 120px;
+    height: 100px;
     padding: 0 40px;
   }
 
@@ -93,6 +93,7 @@
   .subGnb-nav > button {
     font-size: 32px;
   }
+
   .subLogo {
     width: 250px;
     height: 50px;
@@ -110,7 +111,6 @@
     font-size: 24px;
     box-sizing: border-box;
     line-height: 70px;
-    /*    height: 170px;*/
   }
 
   .subList {
@@ -118,14 +118,24 @@
     margin: 0 40px;
   }
 
+  .subList > li > a:hover,
+  .subList-subUl > li > a:hover,
+  .subGnb-nav > a:hover {
+    color: var(--red);
+  }
+
   .subList-subUl {
     font-size: 18px;
     font-weight: 400;
-    margin: 10px 200px 30px;
+    margin: 10px 30px;
     text-align: end;
   }
   .subList-subUl > li {
     margin-top: 5px;
+  }
+
+  .subList > li > a {
+    width: 300px;
   }
 
   #subLang {
@@ -142,7 +152,8 @@
   }
 
   .subGnb {
-    padding-bottom: 50px;
+    padding-bottom: 200px;
+    overflow: hidden;
   }
   /* header end  */
 

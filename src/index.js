@@ -7,7 +7,7 @@ const showListBtn = document.querySelectorAll(".showListBtn");
 const showListBtnI = document.querySelectorAll(".showListBtn i");
 const subList = document.querySelectorAll(".subList");
 const subGnbnav = document.querySelectorAll(".subGnb-nav");
-
+const subLogo = document.querySelector(".subLogo");
 const upIcon = "fas fa-chevron-up";
 const downIcon = "fas fa-chevron-down";
 
@@ -73,6 +73,7 @@ window.onload = onHidden();
 btn.addEventListener("click", onClick);
 window.addEventListener("resize", onHidden);
 Xbtn.addEventListener("click", removeSub);
+subLogo.addEventListener("click", removeSub);
 
 subGnbnav.forEach((nav) => {
   nav.addEventListener("click", listToggle);
